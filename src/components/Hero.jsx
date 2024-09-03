@@ -2,7 +2,7 @@
 import Image from "next/image";
 const Hero = () => {
   return (
-    <div className='bg-[#120800] h-screen flex justify-between items-center px-32 py-14 bg-img'>
+    <div className='bg-[#120800] h-screen flex flex-col lg:flex-row justify-center lg:justify-between items-center px-3 lg:px-32 py-14 bg-img'>
       <div className="text-[#FEFEFE] w-1/2">
       <p className="leading-[1.3rem] text-[#CBE3D2]">I am <span className="text-[#018C50] font-bold">Opayooye Abiodun</span> , I am seeking for your support
         in the upcoming local government election as councilor
