@@ -1,9 +1,10 @@
 import Image from "next/image";
 import Link from "next/link";
 
-const NavBar = () => {
+const NavBar = () => {7
+
   return (
-    <nav className="bg-[#120800] text-white flex justify-between items-center p-4" aria-label="Main navigation">
+    <nav className="hidden bg-[#120800] text-white md:flex justify-between items-center p-4" aria-label="Main navigation">
       <Link href="/" className="">
       <Image
         src="/logo.png"
