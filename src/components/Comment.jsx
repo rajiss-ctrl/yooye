@@ -69,7 +69,7 @@ const Comments = () => {
 
   return (
     <div className='mt-10'>
-      <h2>Comments Section</h2>
+      <h2></h2>
 
       <div>
         <textarea
@@ -85,7 +85,7 @@ const Comments = () => {
         {comments.map((c) => (
           <div key={c.id}>
             <p><strong>{c.author}</strong>: {c.text}</p>
-            <button className='flex gap-1 mb-3' onClick={() => handleLike(c.id)}><ThumbsUp /> <span className="text-xs">{c.likes?.length || 0}</span></button>
+            <button className='flex gap-1 mb-3 text-xs' onClick={() => handleLike(c.id)}><ThumbsUp /> <span>{c.likes?.length || 0}</span></button>
             {/* <p> likes</p> */}
           </div>
         ))}
