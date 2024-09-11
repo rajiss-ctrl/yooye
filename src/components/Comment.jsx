@@ -69,8 +69,6 @@ const Comments = () => {
 
   return (
     <div className='mt-10'>
-      <h2></h2>
-
       <div>
         <textarea
         className='outline-none border'
